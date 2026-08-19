@@ -470,9 +470,9 @@ body {
     align-items: center;
     gap: 1.5rem;
     padding: 1.8rem 2rem;
-    border: 1.5px solid rgba(200, 164, 90, 0.35);
+    border: 1.5px solid rgba(37, 211, 102, 0.4);
     border-radius: 16px;
-    background: linear-gradient(135deg, rgba(200, 164, 90, 0.04) 0%, rgba(200, 164, 90, 0.01) 100%);
+    background: linear-gradient(135deg, rgba(37, 211, 102, 0.15) 0%, rgba(37, 211, 102, 0.05) 100%);
     text-decoration: none;
     transition: all var(--transition-smooth);
     position: relative;
@@ -484,17 +484,17 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(200, 164, 90, 0.08) 0%, transparent 60%);
+    background: linear-gradient(135deg, rgba(37, 211, 102, 0.2) 0%, transparent 60%);
     opacity: 0;
     transition: opacity var(--transition-smooth);
 }
 
 .cta__box:hover {
-    border-color: rgba(200, 164, 90, 0.6);
+    border-color: rgba(37, 211, 102, 0.8);
     transform: translateY(-3px);
     box-shadow: 
         0 15px 40px rgba(0, 0, 0, 0.3),
-        0 0 30px rgba(200, 164, 90, 0.1);
+        0 0 30px rgba(37, 211, 102, 0.15);
 }
 
 .cta__box:hover::before {
